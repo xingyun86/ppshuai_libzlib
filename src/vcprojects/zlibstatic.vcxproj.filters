@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\zlib-1.2.11\adler32.c">
+    <ClCompile Include="..\zlib-src\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\compress.c">
+    <ClCompile Include="..\zlib-src\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\crc32.c">
+    <ClCompile Include="..\zlib-src\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\deflate.c">
+    <ClCompile Include="..\zlib-src\deflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\gzclose.c">
+    <ClCompile Include="..\zlib-src\gzclose.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\gzlib.c">
+    <ClCompile Include="..\zlib-src\gzlib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\gzread.c">
+    <ClCompile Include="..\zlib-src\gzread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\gzwrite.c">
+    <ClCompile Include="..\zlib-src\gzwrite.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\inflate.c">
+    <ClCompile Include="..\zlib-src\inflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\infback.c">
+    <ClCompile Include="..\zlib-src\infback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\inftrees.c">
+    <ClCompile Include="..\zlib-src\inftrees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\inffast.c">
+    <ClCompile Include="..\zlib-src\inffast.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\trees.c">
+    <ClCompile Include="..\zlib-src\trees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\uncompr.c">
+    <ClCompile Include="..\zlib-src\uncompr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zlib-1.2.11\zutil.c">
+    <ClCompile Include="..\zlib-src\zutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -51,34 +51,34 @@
     <ClInclude Include=".\zconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\zlib.h">
+    <ClInclude Include="..\zlib-src\zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\crc32.h">
+    <ClInclude Include="..\zlib-src\crc32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\deflate.h">
+    <ClInclude Include="..\zlib-src\deflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\gzguts.h">
+    <ClInclude Include="..\zlib-src\gzguts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\inffast.h">
+    <ClInclude Include="..\zlib-src\inffast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\inffixed.h">
+    <ClInclude Include="..\zlib-src\inffixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\inflate.h">
+    <ClInclude Include="..\zlib-src\inflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\inftrees.h">
+    <ClInclude Include="..\zlib-src\inftrees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\trees.h">
+    <ClInclude Include="..\zlib-src\trees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\zlib-1.2.11\zutil.h">
+    <ClInclude Include="..\zlib-src\zutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

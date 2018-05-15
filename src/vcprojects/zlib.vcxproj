@@ -80,7 +80,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-1.2.11;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,8 +112,7 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Debug/zlibd.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Debug/zlibd.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-src-src/vcprojects/Debug/zlibd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -124,7 +123,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-1.2.11;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -141,10 +140,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -156,8 +155,7 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Debug/zlibd.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Debug/zlibd.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-src-src/vcprojects/Debug/zlibd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -168,7 +166,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-1.2.11;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -185,10 +183,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,8 +198,7 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Release/zlib.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Release/zlib.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-src-src/vcprojects/Release/zlib.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -212,7 +209,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-1.2.11;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\zlib-src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -229,10 +226,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\zlib-1.2.11;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\zlib-src;D:\DevelopmentEnvironment\Workspaces\Sources\zlib-src-src\vcprojects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -244,8 +241,7 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Release/zlib.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/Release/zlib.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>D:/DevelopmentEnvironment/Workspaces/Sources/zlib-src-src/vcprojects/Release/zlib.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -255,33 +251,33 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\zlib-1.2.11\adler32.c" />
-    <ClCompile Include="..\zlib-1.2.11\compress.c" />
-    <ClCompile Include="..\zlib-1.2.11\crc32.c" />
-    <ClCompile Include="..\zlib-1.2.11\deflate.c" />
-    <ClCompile Include="..\zlib-1.2.11\gzclose.c" />
-    <ClCompile Include="..\zlib-1.2.11\gzlib.c" />
-    <ClCompile Include="..\zlib-1.2.11\gzread.c" />
-    <ClCompile Include="..\zlib-1.2.11\gzwrite.c" />
-    <ClCompile Include="..\zlib-1.2.11\inflate.c" />
-    <ClCompile Include="..\zlib-1.2.11\infback.c" />
-    <ClCompile Include="..\zlib-1.2.11\inftrees.c" />
-    <ClCompile Include="..\zlib-1.2.11\inffast.c" />
-    <ClCompile Include="..\zlib-1.2.11\trees.c" />
-    <ClCompile Include="..\zlib-1.2.11\uncompr.c" />
-    <ClCompile Include="..\zlib-1.2.11\zutil.c" />
-    <ResourceCompile Include="..\zlib-1.2.11\win32\zlib1.rc" />
+    <ClCompile Include="..\zlib-src\adler32.c" />
+    <ClCompile Include="..\zlib-src\compress.c" />
+    <ClCompile Include="..\zlib-src\crc32.c" />
+    <ClCompile Include="..\zlib-src\deflate.c" />
+    <ClCompile Include="..\zlib-src\gzclose.c" />
+    <ClCompile Include="..\zlib-src\gzlib.c" />
+    <ClCompile Include="..\zlib-src\gzread.c" />
+    <ClCompile Include="..\zlib-src\gzwrite.c" />
+    <ClCompile Include="..\zlib-src\inflate.c" />
+    <ClCompile Include="..\zlib-src\infback.c" />
+    <ClCompile Include="..\zlib-src\inftrees.c" />
+    <ClCompile Include="..\zlib-src\inffast.c" />
+    <ClCompile Include="..\zlib-src\trees.c" />
+    <ClCompile Include="..\zlib-src\uncompr.c" />
+    <ClCompile Include="..\zlib-src\zutil.c" />
+    <ResourceCompile Include="..\zlib-src\win32\zlib1.rc" />
     <ClInclude Include=".\zconf.h" />
-    <ClInclude Include="..\zlib-1.2.11\zlib.h" />
-    <ClInclude Include="..\zlib-1.2.11\crc32.h" />
-    <ClInclude Include="..\zlib-1.2.11\deflate.h" />
-    <ClInclude Include="..\zlib-1.2.11\gzguts.h" />
-    <ClInclude Include="..\zlib-1.2.11\inffast.h" />
-    <ClInclude Include="..\zlib-1.2.11\inffixed.h" />
-    <ClInclude Include="..\zlib-1.2.11\inflate.h" />
-    <ClInclude Include="..\zlib-1.2.11\inftrees.h" />
-    <ClInclude Include="..\zlib-1.2.11\trees.h" />
-    <ClInclude Include="..\zlib-1.2.11\zutil.h" />
+    <ClInclude Include="..\zlib-src\zlib.h" />
+    <ClInclude Include="..\zlib-src\crc32.h" />
+    <ClInclude Include="..\zlib-src\deflate.h" />
+    <ClInclude Include="..\zlib-src\gzguts.h" />
+    <ClInclude Include="..\zlib-src\inffast.h" />
+    <ClInclude Include="..\zlib-src\inffixed.h" />
+    <ClInclude Include="..\zlib-src\inflate.h" />
+    <ClInclude Include="..\zlib-src\inftrees.h" />
+    <ClInclude Include="..\zlib-src\trees.h" />
+    <ClInclude Include="..\zlib-src\zutil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
