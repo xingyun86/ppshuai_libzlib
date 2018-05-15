@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/zlib-1.2.11/CMakeLists.txt
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/3.9.3/CMakeSystem.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CMakeSystemSpecificInitialize.cmake
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/3.9.3/CMakeCCompiler.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CMakeSystemSpecificInformation.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CMakeGenericSystem.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/Platform/Windows.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/Platform/WindowsPaths.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CMakeCInformation.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CMakeLanguageInformation.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/Platform/Windows-MSVC-C.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/Platform/Windows-MSVC.cmake
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/3.9.3/CMakeRCCompiler.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CMakeRCInformation.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CheckTypeSize.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CheckIncludeFile.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CheckIncludeFileCXX.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CheckFunctionExists.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CheckIncludeFile.cmake
+D:/DevelopmentEnvironment/Softwares/cmake-3.9.3-win64-x64/share/cmake-3.9/Modules/CheckCSourceCompiles.cmake
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/zlib-1.2.11/zlib.pc.cmakein
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/zlib-1.2.11/zconf.h.cmakein

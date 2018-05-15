@@ -1,0 +1,8 @@
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/RUN_TESTS.dir
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/zlib.dir
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/example.dir
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/zlibstatic.dir
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/minigzip.dir
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/INSTALL.dir
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/ALL_BUILD.dir
+D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/ZERO_CHECK.dir

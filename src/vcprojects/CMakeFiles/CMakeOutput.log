@@ -1,0 +1,242 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 12.0.40629.0
+[Microsoft .NET Framework �汾 4.0.30319.18444]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/5/7 11:55:58��
+�ڵ� 1 �ϵ���Ŀ��D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\3.9.3\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\3.9.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\3.9.3\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.54
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_cc13b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/7 11:55:59。
+节点 1 上的项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_cc13b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cc13b.dir\Debug\”。
+  正在创建目录“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cc13b.dir\Debug\cmTC_cc13b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cc13b.dir\Debug\cmTC_cc13b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cc13b.dir\Debug\\" /Fd"cmTC_cc13b.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cc13b.dir\Debug\\" /Fd"cmTC_cc13b.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_cc13b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_cc13b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_cc13b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cc13b.dir\Debug\testCCompiler.obj
+  cmTC_cc13b.vcxproj -> D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_cc13b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_cc13b.dir\Debug\cmTC_cc13b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cc13b.dir\Debug\cmTC_cc13b.tlog\cmTC_cc13b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_cc13b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.58
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_fae37.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/7 11:56:00。
+节点 1 上的项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_fae37.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fae37.dir\Debug\”。
+  正在创建目录“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fae37.dir\Debug\cmTC_fae37.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fae37.dir\Debug\cmTC_fae37.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fae37.dir\Debug\\" /Fd"cmTC_fae37.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Softwares\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fae37.dir\Debug\\" /Fd"cmTC_fae37.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Softwares\cmake-3.9.3-win64-x64\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_fae37.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_fae37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_fae37.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fae37.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_fae37.vcxproj -> D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_fae37.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_fae37.dir\Debug\cmTC_fae37.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fae37.dir\Debug\cmTC_fae37.tlog\cmTC_fae37.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_fae37.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d8b1c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/7 11:56:00。
+节点 1 上的项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_d8b1c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d8b1c.dir\Debug\”。
+  正在创建目录“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d8b1c.dir\Debug\cmTC_d8b1c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d8b1c.dir\Debug\cmTC_d8b1c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d8b1c.dir\Debug\\" /Fd"cmTC_d8b1c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d8b1c.dir\Debug\\" /Fd"cmTC_d8b1c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_d8b1c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_d8b1c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_d8b1c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d8b1c.dir\Debug\CheckIncludeFile.obj
+  cmTC_d8b1c.vcxproj -> D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_d8b1c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d8b1c.dir\Debug\cmTC_d8b1c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d8b1c.dir\Debug\cmTC_d8b1c.tlog\cmTC_d8b1c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_d8b1c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.57
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_02f7c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/7 11:56:01。
+节点 1 上的项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_02f7c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_02f7c.dir\Debug\”。
+  正在创建目录“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_02f7c.dir\Debug\cmTC_02f7c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_02f7c.dir\Debug\cmTC_02f7c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_02f7c.dir\Debug\\" /Fd"cmTC_02f7c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_02f7c.dir\Debug\\" /Fd"cmTC_02f7c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_02f7c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_02f7c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_02f7c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_02f7c.dir\Debug\CheckIncludeFile.obj
+  cmTC_02f7c.vcxproj -> D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_02f7c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_02f7c.dir\Debug\cmTC_02f7c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_02f7c.dir\Debug\cmTC_02f7c.tlog\cmTC_02f7c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_02f7c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.63
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d27b9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/7 11:56:02。
+节点 1 上的项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_d27b9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d27b9.dir\Debug\”。
+  正在创建目录“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d27b9.dir\Debug\cmTC_d27b9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d27b9.dir\Debug\cmTC_d27b9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d27b9.dir\Debug\\" /Fd"cmTC_d27b9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d27b9.dir\Debug\\" /Fd"cmTC_d27b9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_d27b9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_d27b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/DevelopmentEnvironment/Workspaces/Sources/zlib-1.2.11-src/vcprojects/CMakeFiles/CMakeTmp/Debug/cmTC_d27b9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d27b9.dir\Debug\CheckIncludeFile.obj
+  cmTC_d27b9.vcxproj -> D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\Debug\cmTC_d27b9.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d27b9.dir\Debug\cmTC_d27b9.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d27b9.dir\Debug\cmTC_d27b9.tlog\cmTC_d27b9.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\DevelopmentEnvironment\Workspaces\Sources\zlib-1.2.11-src\vcprojects\CMakeFiles\CMakeTmp\cmTC_d27b9.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.58
+
+
